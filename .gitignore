@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.cache/
+build/
+.turbo/
+.react-router/
+# .env holds the PUBLIC Storefront token, which is public by design and still not
+# something to commit: it identifies a specific shop and is trivially rotated by
+# accident. .env.example carries the shape instead.
+.env
