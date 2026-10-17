@@ -4,7 +4,7 @@
 
 *The storefront running locally against a Shopify development store: home, Catalog, a product page, the Color picker, Add to cart, and the cart drawer updating from "Cart 1" to "Cart 2". Checkout is not part of the recording.*
 
-A headless Shopify storefront on [Hydrogen](https://shopify.dev/custom-storefronts/hydrogen) (React Router, Vite), connected to a Shopify **development store** (`dac-dev-store`) through the Storefront API.
+Headless Shopify storefront on Hydrogen and React Router, wired to a development store through the Storefront API. [Hydrogen](https://shopify.dev/custom-storefronts/hydrogen) is Shopify's React framework; the store is `dac-dev-store`.
 
 **What this is, plainly:** Shopify's own Hydrogen "Skeleton" starter with the store connection done. The pages and components are the stock template (home, collections, product pages, search, cart, blogs, policy pages, customer account), not a custom design. The work in this repo is the wiring: a development store, a Storefront access token, the environment settings, and live queries against the store that return its products. The products are Shopify's sample snowboards and ski wax, not a real catalogue, and the recording stops at the cart. It is not deployed anywhere; the GIF above is a recording of the local run.
 
